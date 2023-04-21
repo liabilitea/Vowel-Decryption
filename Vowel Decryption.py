@@ -9,4 +9,10 @@ decrypted_text = ""
 
 #Check if a character from the dictionary is present in the encrypted_text
 #If character is present, it will retrieve the value and will be appended to decrypted text
+for char in encrypted_text:
+    if char in char_substitute:
+        decrypted_text += char_substitute[char]
+    else:
+        decrypted_text += char
+
 #Print the output
