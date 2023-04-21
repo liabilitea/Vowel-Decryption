@@ -16,3 +16,4 @@ for char in encrypted_text:
         decrypted_text += char
 
 #Print the output
+print("\033[1;33mDecrypted Text: \033[32m{}\033[1m".format(decrypted_text))
